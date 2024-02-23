@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/ut-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NLP Course | ECE at University of Tehran</title>
+    <script type="module" crossorigin src="/assets/index-BE8Z9kuv.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DlmZIWSM.css">
+  </head>
+  <body>
+    <div id="app" class="">
+    <header x-data="{mobileNavOpen:false}" class=" py-2 px-4 shadow-lg bg-primary-600 flex text-white justify-between items-center">
+      <div class="left flex items-center gap-2">
+        <img src="/ut-logo.png" alt="" class="w-20 shadow-lg" srcset="">
+        <div class="">
+          <h1>
+            Natural Language Processing  <br>
+          </h1>
+
+          <p class="text-xs font-thin">Faculty of Electrical & <br> Computer Engineering, <br> University of Tehran
+          
+          </p>
+        </div>
+      </div>
+      <img src="/menu-outline.svg" class="fill-white w-16 " @click="mobileNavOpen = true" alt="">
+      <ul class="flex justify-between hidden">
+        <li>
+          Teaching Staff
+        </li>
+        <li>
+          Logistic
+        </li>
+        <li>
+          Content
+        </li>
+      </ul>
+      <nav  x-transition x-transition.origin.right @click.outside="mobileNavOpen = false"  class="min-h-screen bg-white w-10/12 max-w-[32rem] fixed right-0 top-0 z-[100] shadow-2xl border-l border-primary-700/10" x-show='mobileNavOpen'>
+        <h2 class="bg-primary-50 rounded-xl m-4 shadow-sm text-primary-500 text-center py-4 px-2 font-semibold">Natural Language Processing Course Web Page <br> Spring 2024 </h2>
+        <ul class=" divide-y-2  px-8   justify-between flex flex-col text-primary-600 font-semibold w-full text-center text-lg  ">
+          <li class="py-4">
+            <a href="#staff">Teaching Staff</a>
+          </li>
+          <li class="py-4">
+            <a href="#logistics">Logistic</a>
+          </li>
+          <li class="py-4">
+            <a href="#content">Content</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="intro" class="px-6 py-8 container">
+
+      Natural Language Processing (NLP) stands as a pivotal discipline within the domain of artificial intelligence (AI), facilitating the comprehension and generation of human language. Recent strides in deep learning methodologies have significantly augmented the capabilities of NLP systems, driving breakthroughs across various linguistic tasks.
+    </section>
+    <section id="staff" class=" bg-primary-50 px-6 py-8">
+      <div class="container flex flex-col gap-10 items-center">
+        <div class="left flex flex-wrap justify-center items-center gap-7 sm:gap-5 ">
+          <article class="flex flex-col items-center">
+            <h2 class="font-bold sm:text-xl">
+              Instructor
+            </h2>
+            <img src="/faili.jpg" alt="" class="w-36 sm:w-52 mt-5 object-cover rounded-full">
+            <p class="mt-2 sm:text-lg text-nowrap">Dr. Hesham Faili</p>
+            <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+              <a href="https://www.linkedin.com/in/heshaam-faili-7b9b2468/?originalSubdomain=ir"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+              <a href="mailto:hfaili@ut.ac.ir"><img src="/mail-open-outline.svg" alt=""></a>
+              <a href="https://ece.ut.ac.ir/en/~hfaili"><img src="/link.svg" alt=""></a>
+            </div>
+          </article>
+          <article class="flex flex-col items-center">
+            <h2 class="font-bold sm:text-xl text-nowrap">
+              Course Manager
+            </h2>
+            <img src="/peymani.png" alt="" class="w-36 sm:w-52 mt-5 object-cover rounded-full">
+            <p class="mt-2 sm:text-lg text-nowrap">Samaneh Peymani Rad</p>
+            <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+              <a href="https://www.linkedin.com/in/samaneh-peymani-rad-40736a144"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+              <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+            </div>
+          </article>
+        </div>
+        <div class="right flex flex-col items-center gap-3">
+          <h2 class="font-bold text-xl">
+            Teaching Staff
+          </h2>
+          <div class="flex flex-wrap -mx-10 sm:mx-0 justify-center gap-4  ">
+            <article class="flex flex-col items-center">
+              <img src="/rahimzadeh.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">Chatbots & Dialogue Systems</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA6, Quiz 6, Workshop 3</p>
+              <p class="mt-2 sm:text-lg">
+                Vahid Rahimzadeh
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/vavre/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href="mailto:vahyd@live.com"><img src="/mail-open-outline.svg" alt=""></a>
+              </div>
+            </article>
+            <article class="flex flex-col items-center">
+              <img src="/momeni-nezhad.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">BERT & LLMs</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA4, Quiz 4, Workshop 1</p>
+              <p class="mt-2 sm:text-lg">
+                MohammadJavad Momeni 
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/mohammad-javad-momeni-219498249/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+              </div>
+            </article>
+            <article class="flex flex-col items-center">
+              <img src="/baledi.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">BERT & LLMs</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA4, Quiz 4, Workshop 2</p>
+              <p class="mt-2 sm:text-lg">
+                Danial Baledi
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/danial-baledi-b72ab0288/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+              </div>
+            </article>
+            <article class="flex flex-col items-center">
+              <img src="/namazi-fard.jpeg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">BERT & LLMs</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA2, Quiz 2</p>
+              <p class="mt-2 sm:text-lg">
+                Danial Namazi Fard
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/namazifard/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+                <a href="https://github.com/namazifard"><img src="/link.svg" alt=""></a>
+              </div>
+            </article>
+            <article class="flex flex-col items-center">
+              <img src="/ashouri.jpg" alt="" class="sm:w-52 h-36 sm:h-52 w-36 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">BERT & LLMs</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA4, Quiz 4, Workshop 2</p>
+              <p class="mt-2 sm:text-lg">
+                Nastaran Ashouri
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/nastaran-ashoori-44385a155"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+              </div>
+            </article>
+            <article class="flex flex-col items-center">
+              <img src="/bicharanlu.png" alt="" class="sm:w-52 w-36 sm:h-52 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">BERT & LLMs</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA4, Quiz 4, Workshop 2</p>
+              <p class="mt-2 sm:text-lg">
+                Parhan Bicharanlu
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/parham-bicharanlu-46440b163/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+              </div>
+            </article>
+ 
+            <article class="flex flex-col items-center">
+              <img src="/bagherinia.jpg" alt="" class="sm:w-52 w-36 sm:h-52 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">BERT & LLMs</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA4, Quiz 4, Workshop 2</p>
+              <p class="mt-2 sm:text-lg">
+                Marzieh Bagheri Nia
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/marzieh-bagherinia-51087a292/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+              </div>
+            </article>
+            <article class="flex flex-col items-center">
+              <img src="/masoudi.jpg" alt="" class="sm:w-52 w-36 sm:h-52 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">BERT & LLMs</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA4, Quiz 4, Workshop 2</p>
+              <p class="mt-2 sm:text-lg">
+                Mostafa Masoudi
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/mostafa-masoudi-551650242"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+              </div>
+            </article>
+            <article class="flex flex-col items-center">
+              <img src="/karimi.jpeg" alt="" class="sm:w-52 w-36 sm:h-52 mt-5 object-cover rounded-full">
+              <p class="text-xs sm:text-sm font-light mt-2">Chatbots & Dialogue Systems</p>
+              <p class="text-xs sm:text-sm text-gray-600">CA6, Quiz 6</p>
+              <p class="mt-2 sm:text-lg">
+                Sepehr Karimi
+              </p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/sepehrkarimia"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href=""><img src="/mail-open-outline.svg" alt=""></a>
+                <a href="https://sepehr-karimi.github.io"><img src="/link.svg" alt=""></a>
+              </div>
+            </article>
+ 
+  
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="logistics" class="px-6 py-8 container">
+      <h1 class="font-bold text-xl">Logistics</h1>
+      <p class="mt-4">
+        Class Location and Timing: Room 203, Tehran University's College of Engineering. Saturdays and Mondays, 9:00 AM to 10:30 AM Iran Standard Time. 
+
+All teaching videos from previous years' sessions are available on the course's Telegram channel for enrolled students. 
+
+The course policies document has been uploaded to the eLearn system for enrolled students.
+      </p>
+    </section>
+    <section id="content" class="px-6 py-8 bg-primary-50">
+      <div class="container">
+        <h1 class="font-bold text-xl">Content</h1>
+        <p class="mt-4">
+          This course begins with foundational concepts in NLP and gradually advances to more sophisticated models, comprehensively covering a range of NLP tasks, including machine translation, sentiment analysis, text generation, entity recognition, and text classification. Additionally, it delves into the topic of dialogue systems and chatbots, exploring their design principles and practical implementations. Moreover, the course offers a rigorous exploration of advanced neural network architectures tailored specifically for NLP, empowering participants with a profound understanding of cutting-edge techniques and their applications in real-world scenarios.
+        
+        Throughout the course, students will develop proficiency in various NLP tasks through their participation in continuous assessment activities (CAs). Beginning with fundamental concepts such as data tokenization and basic natural language processing model training, they will progressively advance to explore more complex neural network architectures like RNNs, LSTMs, and GRUs, alongside pertinent methodologies. As they progress, their CAs will emphasize the practical application of their knowledge to contemporary models such as BERT and LLMs. Moreover, students will enhance their skills through hands-on exercises and projects, specifically geared towards machine translation and dialogue systems. This approach ensures that students not only grasp theoretical concepts but also gain practical experience in implementing NLP techniques in real-world scenarios.
+        
+        You can download the course schedule file from the following link: [Link to Course Schedule File]
+        </p>
+        <p>
+          Throughout the course, students will actively participate in workshops. These workshops are designed to bolster their skills and proficiency in NLP through practical engagement . Following the completion of each workshop, video recordings will be published for public access.
+        </p>
+      </div>
+    </section>
+    </div>
+  </body>
+  <footer class="mt-5 text-center py-3 container">
+    Coded with ❤️ in an afternoon by <a href="https://www.linkedin.com/in/vavre/">VavRe</a>
+  </footer>
+</html>
