@@ -188,6 +188,10 @@ const CoursePage1403 = (props) => {
               <li className="py-4">
                 <a href="#content">Content</a>
               </li>
+              <li className="py-4">
+                <a href="#past">Past Course Archives</a>
+              </li>
+              
             </ul>
           </nav>
         )}
