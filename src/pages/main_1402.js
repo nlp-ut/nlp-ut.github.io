@@ -172,6 +172,16 @@ const CoursePage1402 = (props) => {
               <li className="py-4">
                 <a href="#content">Content</a>
               </li>
+              <li className="py-4">
+                <a href="#quizzes">Quizzes</a>
+              </li>
+              <li className="py-4">
+                <a href="#assignments">Assignments</a>
+              </li>
+              <li className="py-4">
+                <a href="#workshops">Workshops</a>
+              </li>
+              
             </ul>
           </nav>
         )}
