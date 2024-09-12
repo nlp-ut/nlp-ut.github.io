@@ -313,7 +313,7 @@ const CoursePage1403 = (props) => {
         <div className="container">
           <h1 className="font-bold text-xl">Past Course Archives</h1>
           <p class="mt-4" style={{color: "#518ccf"}}>
-            <Link to="/1402" >1402 Fall Course</Link>
+            <Link to="/1402" >1402 Spring Course</Link>
           </p>
         </div>
       </section>
