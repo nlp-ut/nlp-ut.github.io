@@ -301,11 +301,39 @@ const CoursePage1403 = (props) => {
         <div className="container">
           <h1 className="font-bold text-xl">Logistics</h1>
           <p className="mt-4">
+          🏫
           Class Location and Timing: Room 219, Tehran University's College of Engineering. Saturdays and Mondays, 9:00 AM to 10:30 AM Iran Standard Time. <br />
-          The course schedule will be available soon! <br/>
-          All teaching videos are available on the following link: <a style={{color: "#518ccf"}} href="https://www.aparat.com/UT_NLP/">Download Here</a> <br />
-          The course policies document will be available soon!<br/>
-          CA report template will be available soon!<br/>
+          
+          📅
+          You can download the course schedule file from the following link:{" "}
+            <a
+              style={{ color: "#518ccf" }}
+              href="https://drive.google.com/drive/folders/1xutGEyU6L4bJLKXpjudBPyOFPX1BbonM?usp=sharing"
+            >
+              Download Here
+            </a>
+            <br />
+          
+          🎥
+          All teaching videos are available on the following link: 
+          <a 
+            style={{color: "#518ccf"}} 
+            href="https://www.aparat.com/UT_NLP/"
+          >
+              Download Here
+          </a>
+          <br />
+          
+          📄
+          The course policies document is available on the following link:{" "}
+          <a 
+            style={{ color: "#518ccf" }} 
+            href="https://drive.google.com/drive/folders/1ZG8H_a0LGIpBuJ1xd4QyiHSjAy7SEeLr?usp=sharing"
+          >
+            Download Here
+          </a>{" "}
+          <br/>
+
           </p>
         </div>
       </section>
