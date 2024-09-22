@@ -315,16 +315,16 @@ const CoursePage1403 = (props) => {
             <br />
           
           🎥
-          All teaching videos are available on the following link: 
+          All teaching videos are available on the following link: {" "}
           <a 
             style={{color: "#518ccf"}} 
             href="https://www.aparat.com/UT_NLP/"
           >
-              Download Here
+              Aparat Channel
           </a>
           <br />
           
-          📄
+          📜
           The course policies document is available on the following link:{" "}
           <a 
             style={{ color: "#518ccf" }} 
@@ -333,7 +333,17 @@ const CoursePage1403 = (props) => {
             Download Here
           </a>{" "}
           <br/>
-
+          
+          💻
+          Course workshop recordings are available on course youtube channel:{" "}
+          <a 
+            style={{ color: "#518ccf" }} 
+            href="https://www.youtube.com/@NLP-UT"
+          >
+            YouTube Channel
+          </a>{" "}
+          <br/>
+          
           </p>
         </div>
       </section>
