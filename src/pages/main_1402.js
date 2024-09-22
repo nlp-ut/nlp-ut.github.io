@@ -320,7 +320,7 @@ const CoursePage1402 = (props) => {
             </a>{" "}
 
             <br />
-            The course policies document are available on the following link:{" "}
+            The course policies document is available on the following link:{" "}
             <a
               style={{ color: "#518ccf" }}
               href="https://drive.google.com/file/d/13UiIrrWhCZhiHbjDdisOBRPEK8afMJn-/view?usp=sharing"

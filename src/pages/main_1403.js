@@ -335,7 +335,7 @@ const CoursePage1403 = (props) => {
           <br/>
           
           💻
-          Course workshop recordings are available on course youtube channel:{" "}
+          Course workshop recordings are available on the following link:{" "}
           <a 
             style={{ color: "#518ccf" }} 
             href="https://www.youtube.com/@NLP-UT"
