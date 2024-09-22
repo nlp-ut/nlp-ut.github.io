@@ -311,6 +311,15 @@ const CoursePage1402 = (props) => {
               Download Here
             </a>{" "}
             <br />
+            All course slides are available on the following link:{" "}
+            <a
+              style={{ color: "#518ccf" }}
+              href="https://drive.google.com/drive/folders/18u9GbN3FsFY8glHMi4rJMtyMGaupFCR6?usp=sharing"
+            >
+              Download Here
+            </a>{" "}
+
+            <br />
             The course policies document are available on the following link:{" "}
             <a
               style={{ color: "#518ccf" }}
