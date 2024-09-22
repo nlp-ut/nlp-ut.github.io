@@ -177,7 +177,7 @@ const CoursePage1403 = (props) => {
         {mobileNavOpen && (
           <nav className="min-h-screen bg-white w-10/12 max-w-[32rem] fixed right-0 top-0 z-[100] shadow-2xl border-l border-primary-700/10">
             <h2 className="bg-primary-50 rounded-xl m-4 shadow-sm text-primary-500 text-center py-4 px-2 font-semibold">
-              Natural Language Processing Course Web Page <br /> Spring 2024
+              Natural Language Processing Course Web Page <br /> Fall 2024
             </h2>
             <ul className="divide-y-2 px-8 justify-between flex flex-col text-primary-600 font-semibold w-full text-center text-lg">
               <li className="py-4">
