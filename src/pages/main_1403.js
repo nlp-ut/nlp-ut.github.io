@@ -23,6 +23,7 @@ import linkSVG from "../assets/link.svg";
 import mailOutlineLogo from "../assets/mail-open-outline.svg";
 import utLogo from "../assets/ut-logo.png";
 import menuOutline from "../assets/menu-outline.svg";
+import nlpBanner from "../assets/NLP-banner.jpg";
 import { Link } from "react-router-dom";
 
 const CoursePage1403 = (props) => {
@@ -202,6 +203,18 @@ const CoursePage1403 = (props) => {
           onClick={() => setMobileNavOpen(false)}
         ></div>
       )}
+      
+      <section
+        id="header"
+        className="relative bg-cover bg-center h-64"
+        style={{ backgroundImage: `url(${nlpBanner})` }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative flex items-center justify-center h-full">
+          <h1 className="text-white text-4xl font-bold">NLP - Fall 2024</h1>
+        </div>
+      </section>
+
       <section id="intro" className="px-6 py-8 container">
         Natural Language Processing (NLP) stands as a pivotal discipline within
         the domain of artificial intelligence (AI), facilitating the
