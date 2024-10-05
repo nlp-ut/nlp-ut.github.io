@@ -179,6 +179,7 @@ const CoursePage1403 = (props) => {
           <li>Teaching Staff</li>
           <li>Logistic</li>
           <li>Content</li>
+          <li>Assignments</li>
         </ul>
         {mobileNavOpen && (
           <nav className="min-h-screen bg-white w-10/12 max-w-[32rem] fixed right-0 top-0 z-[100] shadow-2xl border-l border-primary-700/10">
@@ -194,6 +195,9 @@ const CoursePage1403 = (props) => {
               </li>
               <li className="py-4">
                 <a href="#content">Content</a>
+              </li>
+              <li className="py-4">
+                <a href="#assignments">Assignments</a>
               </li>
               <li className="py-4">
                 <a href="#past">Past Course Archives</a>
