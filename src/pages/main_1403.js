@@ -147,7 +147,13 @@ const CoursePage1403 = (props) => {
       "github": "https://github.com/PouyaGohari"
     }
   ]
-  
+  const CAList = [
+    {
+    "name": "Computer Assignment 1",
+    "subject": "Tokenization, Language Modeling With N-Grams",
+    "url": "https://drive.google.com/file/d/1nQJij6KWAi2ogX4lgc3YMcJgQu1PG1eE/view?usp=sharing"
+    }
+  ]
   return (
     <>
       <header className="py-2 px-4 shadow-lg bg-primary-600 flex text-white justify-between items-center">
@@ -363,7 +369,20 @@ const CoursePage1403 = (props) => {
         </div>
       </section>
       
-      <section id="past" className="px-6 py-8">
+      <section id="assignments" className="px-6 py-8">
+        <div className="container">
+          <h1 className="font-bold text-xl">Assignments</h1>
+          {CAList.map((ca) => (
+            <p class="mt-4" style={{ color: "#518ccf" }}>
+              <Link to={ca.url}>
+                {ca.name} - {ca.subject}
+              </Link>
+            </p>
+          ))}
+        </div>
+      </section>
+
+      <section id="past" className="px-6 py-8  bg-primary-50">
         <div className="container">
           <h1 className="font-bold text-xl">Past Course Archives</h1>
           <p class="mt-4" style={{color: "#518ccf"}}>
