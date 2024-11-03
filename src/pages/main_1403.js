@@ -396,19 +396,19 @@ const CoursePage1403 = (props) => {
         <h2 className="font-semibold text-lg mt-6">Past Quizzes</h2>
     <ul className="mt-4 space-y-2">
       <li>
-        <a href="..\assets\quiz\quiz1-14011220solutions.pdf" style={{ color: "#518ccf" }}>Quiz 1 - Spring 2023</a>
+        <a href="https://drive.google.com/file/d/18RZFGei7uw_UT5ePI8vWitQcMdfTEDv2/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 1 - Spring 2023</a>
       </li>
       <li>
-        <a href="..\assets\quiz\quiz2-answers-1402-01-21.pdf" style={{ color: "#518ccf" }}>Quiz 2 - Spring 2023</a>
+        <a href="https://drive.google.com/file/d/11phFloUtbgIAxuv8An_Bmh66rjh4X_V8/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 2 - Spring 2023</a>
       </li>
       <li>
-        <a href="..\assets\quiz\quiz3_Solution.pdf" style={{ color: "#518ccf" }}>Quiz 3 - Spring 2023</a>
+        <a href="https://drive.google.com/file/d/1mrACQWCU10KVxAC5m8frcYjnlSDnlE7l/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 3 - Spring 2023</a>
       </li>
       <li>
-        <a href="..\assets\quiz\Quiz4 14020230-with solution.pdf" style={{ color: "#518ccf" }}>Quiz 4 - Spring 2023</a>
+        <a href="https://drive.google.com/file/d/1tuWAvq_G_9WvKLZmOT9D2QppSvzi8Gek/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 4 - Spring 2023</a>
       </li>
       <li>
-        <a href="..\assets\quiz\Quiz5 Syntax 14020308-with solution.docx" style={{ color: "#518ccf" }}>Quiz 5 - Spring 2023</a>
+        <a href="https://drive.google.com/file/d/1k2TRN4PGdaq2msMK_jWNIZFhR3bQRVB0/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 5 - Spring 2023</a>
       </li>
     </ul>
       </section>
