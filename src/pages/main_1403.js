@@ -393,6 +393,24 @@ const CoursePage1403 = (props) => {
             <Link to="/spring-2024" >Spring 2024 Course</Link>
           </p>
         </div>
+        <h2 className="font-semibold text-lg mt-6">Past Quizzes</h2>
+    <ul className="mt-4 space-y-2">
+      <li>
+        <a href="..\assets\quiz\quiz1-14011220solutions.pdf" style={{ color: "#518ccf" }}>Quiz 1 - Spring 2023</a>
+      </li>
+      <li>
+        <a href="..\assets\quiz\quiz2-answers-1402-01-21.pdf" style={{ color: "#518ccf" }}>Quiz 2 - Spring 2023</a>
+      </li>
+      <li>
+        <a href="..\assets\quiz\quiz3_Solution.pdf" style={{ color: "#518ccf" }}>Quiz 3 - Spring 2023</a>
+      </li>
+      <li>
+        <a href="..\assets\quiz\Quiz4 14020230-with solution.pdf" style={{ color: "#518ccf" }}>Quiz 4 - Spring 2023</a>
+      </li>
+      <li>
+        <a href="..\assets\quiz\Quiz5 Syntax 14020308-with solution.docx" style={{ color: "#518ccf" }}>Quiz 5 - Spring 2023</a>
+      </li>
+    </ul>
       </section>
 
       <footer className="mt-5 text-center py-3 container">
