@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f82a812e.css",
+    "main.js": "/static/js/main.fb9e8693.js",
+    "static/media/mohammad_gorji.jpg": "/static/media/mohammad_gorji.d098090721cd0739f04f.jpg",
+    "static/media/ali_khorramfar.jpg": "/static/media/ali_khorramfar.e61f9ee8253c31cd9ce2.jpg",
+    "static/media/ali_ramezani.jpg": "/static/media/ali_ramezani.7e4e3f60f02b36617b40.jpg",
+    "static/media/milad_mohammadi.jpeg": "/static/media/milad_mohammadi.49bf63b6427c03011afe.jpeg",
+    "static/media/ali_fartout.jpg": "/static/media/ali_fartout.1b172a59891e4a1e8c6d.jpg",
+    "static/media/amirhossein_bonakdar.jpg": "/static/media/amirhossein_bonakdar.1fcc3cf04aeadbae53cc.jpg",
+    "static/media/baledi.jpg": "/static/media/baledi.5e4875ea028eaf589ed6.jpg",
+    "static/media/NLP-banner.jpg": "/static/media/NLP-banner.b76183d7a83a876d4866.jpg",
+    "static/media/pouya_gohari.jpg": "/static/media/pouya_gohari.74acf9d663e43a88341e.jpg",
+    "static/media/bicharanlu.png": "/static/media/bicharanlu.90d280607bd3340cf466.png",
+    "static/media/peymani.jpg": "/static/media/peymani.c7aae52159b56c74e4c2.jpg",
+    "static/media/parmis_bathayan.jpg": "/static/media/parmis_bathayan.c111efc3b0104399ba8a.jpg",
+    "static/media/ashouri.jpg": "/static/media/ashouri.cfed1f106813a2f6e234.jpg",
+    "static/media/amirhossein_safdarian.jpg": "/static/media/amirhossein_safdarian.dadb306e92b5525cc99f.jpg",
+    "static/media/masoudi.jpg": "/static/media/masoudi.d169427de93eb22f61fc.jpg",
+    "static/media/parham_sazdar.jpg": "/static/media/parham_sazdar.a794e812efb452cc6364.jpg",
+    "static/media/namazi-fard.jpeg": "/static/media/namazi-fard.cc63d2c906702840856a.jpeg",
+    "static/media/karimi.jpeg": "/static/media/karimi.5d1a57294fd0dfd70469.jpeg",
+    "static/media/mohammad_amin_ghanizadeh.jpg": "/static/media/mohammad_amin_ghanizadeh.2972a6f85150ce5aff7a.jpg",
+    "static/media/faili.jpg": "/static/media/faili.1d9aa5bcd610bcb37159.jpg",
+    "static/media/momeni-nezhad.jpg": "/static/media/momeni-nezhad.ffd77ff8e2d16564323b.jpg",
+    "static/media/rahimzadeh.jpg": "/static/media/rahimzadeh.7e358b09f05a02f33c89.jpg",
+    "static/media/bagherinia.jpg": "/static/media/bagherinia.6d4b3a6eab13b635b88c.jpg",
+    "static/media/mail-open-outline.svg": "/static/media/mail-open-outline.757c9ed94bf1ae82afa29bf246f06738.svg",
+    "static/media/logo-github.svg": "/static/media/logo-github.31f5f59cad7a83d4da00527272baccc5.svg",
+    "index.html": "/index.html",
+    "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.c67545d999d9b6b395ba33500ea7a452.svg",
+    "static/media/link.svg": "/static/media/link.bf0359c15a5b3198d45bd8f95f190bad.svg",
+    "static/media/menu-outline.svg": "/static/media/menu-outline.985b09aa9867a99e692497968713b570.svg",
+    "main.f82a812e.css.map": "/static/css/main.f82a812e.css.map",
+    "main.fb9e8693.js.map": "/static/js/main.fb9e8693.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f82a812e.css",
+    "static/js/main.fb9e8693.js"
+  ]
+}
