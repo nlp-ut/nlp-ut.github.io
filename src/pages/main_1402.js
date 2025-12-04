@@ -5,15 +5,6 @@ import Staff from "../Components/Staff";
 
 import faili from "../assets/faili.jpg";
 import peymani from "../assets/peymani.jpg";
-import staff_rahimzadeh from "../assets/1402/rahimzadeh.jpg";
-import staff_momeni from "../assets/1402/momeni-nezhad.jpg";
-import staff_baledi from "../assets/1402/baledi.jpg";
-import staff_namazifard from "../assets/1402/namazi-fard.jpeg";
-import staff_ashouri from "../assets/1402/ashouri.jpg";
-import staff_bicharanlu from "../assets/1402/bicharanlu.png";
-import staff_bagherinia from "../assets/1402/bagherinia.jpg";
-import staff_masoudi from "../assets/1402/masoudi.jpg";
-import staff_karimi from "../assets/1402/karimi.jpeg";
 import linkedinLogo from "../assets/logo-linkedin.svg";
 import linkSVG from "../assets/link.svg";
 import mailOutlineLogo from "../assets/mail-open-outline.svg";
@@ -21,117 +12,16 @@ import utLogo from "../assets/ut-logo.png";
 import menuOutline from "../assets/menu-outline.svg";
 import { Link } from "react-router-dom";
 import nlpBanner from "../assets/NLP-banner.jpg";
+import course1402Data from "../data/course1402.json";
+import staffImages1402 from "../data/staffImages1402";
 
 const CoursePage1402 = (props) => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  const staffList = [
-    {
-      "name": "Vahid Rahimzadeh",
-      "image": staff_rahimzadeh,
-      "subject": "Chatbots & Dialogue Systems",
-      "duty": "CA6, Quiz 6, Workshop 3",
-      "linkedin": "https://www.linkedin.com/in/vavre/",
-      "email": "mailto:vahyd@live.com"
-    },
-    {
-      "name": "MohammadJavad Momeni",
-      "image": staff_momeni,
-      "subject": "Transformer, Pre-training, Post-training, LLMs",
-      "duty": "CA4, Quiz 4, Workshop 1",
-      "linkedin": "https://www.linkedin.com/in/mohammad-javad-momeni-219498249/",
-      "email": "mailto:momeni.nezhad@ut.ac.ir"
-    },
-    {
-      "name": "Danial Baledi",
-      "image": staff_baledi,
-      "subject": "Transformer, Pre-training, Post-training, LLMs",
-      "duty": "CA4, Quiz 4, Workshop 2",
-      "linkedin": "https://www.linkedin.com/in/danial-baledi-b72ab0288/",
-      "email": "mailto:Baledi.danial@gmail.com"
-    },
-    {
-      "name": "Danial Namazi Fard",
-      "image": staff_namazifard,
-      "subject": "Sentiment, Embedding, Naive Bayes",
-      "duty": "CA2, Quiz 2",
-      "linkedin": "https://www.linkedin.com/in/namazifard/",
-      "email": "",
-      "github": "https://github.com/namazifard"
-    },
-    {
-      "name": "Nastaran Ashouri",
-      "image": staff_ashouri,
-      "subject": "Sentiment, Embedding, Naive Bayes",
-      "duty": "CA2, Quiz 2",
-      "linkedin": "https://www.linkedin.com/in/nastaran-ashoori-44385a155",
-      "email": "mailto:nastaran.ashoori@ut.ac.ir"
-    },
-    {
-      "name": "Parhan Bicharanlu",
-      "image": staff_bicharanlu,
-      "subject": "Neural Language Models(RNN,LSTM,GRU)",
-      "duty": "CA3, Quiz 2",
-      "linkedin": "https://www.linkedin.com/in/parham-bicharanlu-46440b163/",
-      "email": "mailto:parhambicharanlu1378@gmail.com"
-    },
-    {
-      "name": "Marzieh Bagheri Nia",
-      "image": staff_bagherinia,
-      "subject": "Tokenization, Language Modeling with N-Grams",
-      "duty": "CA1, Quiz 1",
-      "linkedin": "https://www.linkedin.com/in/marzieh-bagherinia-51087a292/",
-      "email": ""
-    },
-    {
-      "name": "Mostafa Masoudi",
-      "image": staff_masoudi,
-      "subject": "Neural Machine Translation",
-      "duty": "CA5, Quiz 5",
-      "linkedin": "https://www.linkedin.com/in/mostafa-masoudi-551650242",
-      "email": "mailto:mstfmasoudii@gmail.com"
-    },
-    {
-      "name": "Sepehr Karimi",
-      "image": staff_karimi,
-      "subject": "Chatbots & Dialogue Systems",
-      "duty": "CA6, Quiz 6",
-      "linkedin": "https://www.linkedin.com/in/sepehrkarimia",
-      "email": "mailto:sepehrkarimi@ut.ac.ir",
-      "homepage": "https://sepehr-karimi.github.io"
-    }
-  ]
-  const CAList = [
-      {
-      "name": "Computer Assignment 1",
-      "subject": "Tokenization, Language Modeling With N-Grams",
-      "url": "https://drive.google.com/file/d/1SDK4znZ8CW_NT90pGAtG0d5R6XWs6G4b/view?usp=sharing"
-      },
-      {
-          "name": "Computer Assignment 2",
-          "subject": "Sentiment Analysis, Embedding, Naive Bayes",
-          "url": "https://drive.google.com/file/d/1Uhq7iJdTay9zXI2G0wTH_JHecvm-4eFK/view?usp=sharing"
-      },
-      {
-          "name": "Computer Assignment 3",
-          "subject": "Neural Language Models (LSTM, GRU)",
-          "url": "https://drive.google.com/file/d/1wDstVAWu2RUXj0W8d4k6rgL6L5a9RSN0/view?usp=sharing"
-      },
-      {
-          "name": "Computer Assignment 4",
-          "subject": "Fine-Tuning Language Models",
-          "url": "https://drive.google.com/file/d/10eKFXCoZUI3Rna7gqS7xDq_DQ6hM2deM/view?usp=sharing"
-      },
-      {
-          "name": "Computer Assignment 5",
-          "subject": "Machine Translation",
-          "url": "https://drive.google.com/file/d/1QXxc-Z9L-anzd59sXlM-nnK2SdrCw3bP/view?usp=sharing"
-      },
-      {
-          "name": "Computer Assignment 6",
-          "subject": "LLM Based Chatbot",
-          "url": "https://drive.google.com/file/d/1chhkJrU6PBrmI06MIyuLjXrIYt7094Th/view?usp=sharing"
-      }
-  ]
+  const staffList = course1402Data.staff.map((staff) => ({
+    ...staff,
+    image: staffImages1402[staff.imageKey],
+  }));
+  const CAList = course1402Data.assignments;
   return (
     <>
       <header className="py-2 px-4 shadow-lg bg-primary-600 flex text-white justify-between items-center">
@@ -273,6 +163,7 @@ const CoursePage1402 = (props) => {
               {/* Staff */}
               {staffList.map((staff) => (
                 <Staff
+                  key={staff.name}
                   name={staff.name}
                   image={staff.image}
                   subject={staff.subject}
@@ -408,7 +299,7 @@ const CoursePage1402 = (props) => {
         <div className="container">
           <h1 className="font-bold text-xl">Assignments</h1>
           {CAList.map((ca) => (
-            <p class="mt-4" style={{ color: "#518ccf" }}>
+            <p class="mt-4" style={{ color: "#518ccf" }} key={ca.name}>
               <Link to={ca.url}>
                 {ca.name} - {ca.subject}
               </Link>

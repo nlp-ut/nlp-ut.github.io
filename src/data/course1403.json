@@ -1,0 +1,121 @@
+{
+  "staff": [
+    {
+      "imageKey": "amirhossein_safdarian",
+      "name": "AmirHossein Safdarian",
+      "subject": "",
+      "duty": "CA5, Workshop 3",
+      "linkedin": "https://www.linkedin.com/in/amirhossein-safdarian/",
+      "email": "mailto:safdarian2000@gmail.com",
+      "homepage": "",
+      "github": "https://github.com/safdarian"
+    },
+    {
+      "imageKey": "milad_mohammadi",
+      "name": "Milad Mohammadi",
+      "subject": "",
+      "duty": "CA6, Workshop 3",
+      "linkedin": "https://www.linkedin.com/in/mohammadi-milad-mim/",
+      "email": "mailto:miladmohammadi@ut.ac.ir",
+      "homepage": "https://miladmohammadi.xyz",
+      "github": "https://github.com/mohammadi-milad-mim"
+    },
+    {
+      "imageKey": "ali_khorramfar",
+      "name": "Ali Khorramfar",
+      "subject": "",
+      "duty": "CA2, Quiz 2",
+      "linkedin": "https://www.linkedin.com/in/ali-khoramfar/",
+      "email": "mailto:Alikhorramfar@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "amirhossein_bonakdar",
+      "name": "AmirHossein Bonakdar",
+      "subject": "",
+      "duty": "CA2, Quiz 2",
+      "linkedin": "https://ir.linkedin.com/in/amirhossein-bonakdar-a138a7156",
+      "email": "mailto:amir7bonakdar@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "ali_ramezani",
+      "name": "Ali Ramezani",
+      "subject": "",
+      "duty": "CA1, Quiz 1, CA3, Quiz 3, Workshop 1",
+      "linkedin": "https://www.linkedin.com/in/ali-ramezani-352a0b128/",
+      "email": "mailto:ali.ramezani.96@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "mohammad_amin_ghanizadeh",
+      "name": "Mohammad Amin Ghanizadeh",
+      "subject": "",
+      "duty": "CA1, Quiz 1, CA3, Quiz 3",
+      "linkedin": "https://www.linkedin.com/in/mohammad-amin-ghanizadeh-9b18791a5/",
+      "email": "mailto:ghanizadeh.amin@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "mohammad_gorji",
+      "name": "Mohammad Gorji",
+      "subject": "",
+      "duty": "CA4, Quiz 4, Workshop 2",
+      "linkedin": "https://www.linkedin.com/in/mohammad-gorji-465749275",
+      "email": "mailto:mohamadgorjicode@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "ali_fartout",
+      "name": "Ali Fartout",
+      "subject": "",
+      "duty": "CA4, Quiz 4",
+      "linkedin": "https://www.linkedin.com/in/ali-fartout-552428170?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "email": "mailto:ali.fartout@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "parham_sazdar",
+      "name": "Parham Sazdar",
+      "subject": "",
+      "duty": "CA3, Quiz 3, Workshop 1",
+      "linkedin": "https://www.linkedin.com/in/parham-sazdar",
+      "email": "mailto:p.sazdar@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "parmis_bathayan",
+      "name": "Parmis Bathayan",
+      "subject": "",
+      "duty": "Quiz 5, Quiz 6",
+      "linkedin": "https://www.linkedin.com/in/parmis-bathayan-15bb43323/",
+      "email": "mailto:parmisbathaeiyan@gmail.com",
+      "homepage": "",
+      "github": "https://github.com/parmisbathaeiyan"
+    },
+    {
+      "imageKey": "pouya_gohari",
+      "name": "Pouya Gohari",
+      "subject": "",
+      "duty": "Quiz 5, Quiz 6",
+      "linkedin": "https://linkedin.com/in/pouya-gohari-a2124a255",
+      "email": "mailto:pouya.hmgohari@gmail.com",
+      "homepage": "",
+      "github": "https://github.com/PouyaGohari"
+    }
+  ],
+  "assignments": [
+    {
+      "name": "Computer Assignment 1",
+      "subject": "Tokenization, Language Modeling With N-Grams",
+      "url": "https://drive.google.com/file/d/1nQJij6KWAi2ogX4lgc3YMcJgQu1PG1eE/view?usp=sharing"
+    }
+  ]
+}

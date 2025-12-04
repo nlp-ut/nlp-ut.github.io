@@ -1,0 +1,110 @@
+{
+  "staff": [
+    {
+      "imageKey": "rahimzadeh",
+      "name": "Vahid Rahimzadeh",
+      "subject": "Chatbots & Dialogue Systems",
+      "duty": "CA6, Quiz 6, Workshop 3",
+      "linkedin": "https://www.linkedin.com/in/vavre/",
+      "email": "mailto:vahyd@live.com"
+    },
+    {
+      "imageKey": "momeni",
+      "name": "MohammadJavad Momeni",
+      "subject": "Transformer, Pre-training, Post-training, LLMs",
+      "duty": "CA4, Quiz 4, Workshop 1",
+      "linkedin": "https://www.linkedin.com/in/mohammad-javad-momeni-219498249/",
+      "email": "mailto:momeni.nezhad@ut.ac.ir"
+    },
+    {
+      "imageKey": "baledi",
+      "name": "Danial Baledi",
+      "subject": "Transformer, Pre-training, Post-training, LLMs",
+      "duty": "CA4, Quiz 4, Workshop 2",
+      "linkedin": "https://www.linkedin.com/in/danial-baledi-b72ab0288/",
+      "email": "mailto:Baledi.danial@gmail.com"
+    },
+    {
+      "imageKey": "namazifard",
+      "name": "Danial Namazi Fard",
+      "subject": "Sentiment, Embedding, Naive Bayes",
+      "duty": "CA2, Quiz 2",
+      "linkedin": "https://www.linkedin.com/in/namazifard/",
+      "email": "",
+      "github": "https://github.com/namazifard"
+    },
+    {
+      "imageKey": "ashouri",
+      "name": "Nastaran Ashouri",
+      "subject": "Sentiment, Embedding, Naive Bayes",
+      "duty": "CA2, Quiz 2",
+      "linkedin": "https://www.linkedin.com/in/nastaran-ashoori-44385a155",
+      "email": "mailto:nastaran.ashoori@ut.ac.ir"
+    },
+    {
+      "imageKey": "bicharanlu",
+      "name": "Parhan Bicharanlu",
+      "subject": "Neural Language Models(RNN,LSTM,GRU)",
+      "duty": "CA3, Quiz 2",
+      "linkedin": "https://www.linkedin.com/in/parham-bicharanlu-46440b163/",
+      "email": "mailto:parhambicharanlu1378@gmail.com"
+    },
+    {
+      "imageKey": "bagherinia",
+      "name": "Marzieh Bagheri Nia",
+      "subject": "Tokenization, Language Modeling with N-Grams",
+      "duty": "CA1, Quiz 1",
+      "linkedin": "https://www.linkedin.com/in/marzieh-bagherinia-51087a292/",
+      "email": ""
+    },
+    {
+      "imageKey": "masoudi",
+      "name": "Mostafa Masoudi",
+      "subject": "Neural Machine Translation",
+      "duty": "CA5, Quiz 5",
+      "linkedin": "https://www.linkedin.com/in/mostafa-masoudi-551650242",
+      "email": "mailto:mstfmasoudii@gmail.com"
+    },
+    {
+      "imageKey": "karimi",
+      "name": "Sepehr Karimi",
+      "subject": "Chatbots & Dialogue Systems",
+      "duty": "CA6, Quiz 6",
+      "linkedin": "https://www.linkedin.com/in/sepehrkarimia",
+      "email": "mailto:sepehrkarimi@ut.ac.ir",
+      "homepage": "https://sepehr-karimi.github.io"
+    }
+  ],
+  "assignments": [
+    {
+      "name": "Computer Assignment 1",
+      "subject": "Tokenization, Language Modeling With N-Grams",
+      "url": "https://drive.google.com/file/d/1SDK4znZ8CW_NT90pGAtG0d5R6XWs6G4b/view?usp=sharing"
+    },
+    {
+      "name": "Computer Assignment 2",
+      "subject": "Sentiment Analysis, Embedding, Naive Bayes",
+      "url": "https://drive.google.com/file/d/1Uhq7iJdTay9zXI2G0wTH_JHecvm-4eFK/view?usp=sharing"
+    },
+    {
+      "name": "Computer Assignment 3",
+      "subject": "Neural Language Models (LSTM, GRU)",
+      "url": "https://drive.google.com/file/d/1wDstVAWu2RUXj0W8d4k6rgL6L5a9RSN0/view?usp=sharing"
+    },
+    {
+      "name": "Computer Assignment 4",
+      "subject": "Fine-Tuning Language Models",
+      "url": "https://drive.google.com/file/d/10eKFXCoZUI3Rna7gqS7xDq_DQ6hM2deM/view?usp=sharing"
+    },
+    {
+      "name": "Computer Assignment 5",
+      "subject": "Machine Translation",
+      "url": "https://drive.google.com/file/d/1QXxc-Z9L-anzd59sXlM-nnK2SdrCw3bP/view?usp=sharing"
+    },
+    {
+      "name": "Computer Assignment 6",
+      "subject": "LLM Based Chatbot",
+      "url": "https://drive.google.com/file/d/1chhkJrU6PBrmI06MIyuLjXrIYt7094Th/view?usp=sharing"
+    }
+  ]
+}

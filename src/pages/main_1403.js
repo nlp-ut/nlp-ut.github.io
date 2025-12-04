@@ -6,18 +6,6 @@ import Staff from "../Components/Staff";
 import faili from "../assets/faili.jpg";
 import peymani from "../assets/peymani.jpg";
 
-import staff_amirhossein_safdarian from "../assets/1403/amirhossein_safdarian.jpg";
-import staff_milad_mohammadi from "../assets/1403/milad_mohammadi.jpeg";
-import staff_ali_khorramfar from "../assets/1403/ali_khorramfar.jpg";
-import staff_ali_ramezani from "../assets/1403/ali_ramezani.jpg";
-import staff_amirhossein_bonakdar from "../assets/1403/amirhossein_bonakdar.jpg";
-import staff_mohammad_gorji from "../assets/1403/mohammad_gorji.jpg";
-import staff_parham_sazdar from "../assets/1403/parham_sazdar.jpg";
-import staff_parmis_bathayan from "../assets/1403/parmis_bathayan.jpg";
-import staff_pouya_gohari from "../assets/1403/pouya_gohari.jpg";
-import staff_mohammad_amin_ghanizadeh from "../assets/1403/mohammad_amin_ghanizadeh.jpg";
-import staff_ali_fartout from "../assets/1403/ali_fartout.jpg";
-
 import linkedinLogo from "../assets/logo-linkedin.svg";
 import linkSVG from "../assets/link.svg";
 import mailOutlineLogo from "../assets/mail-open-outline.svg";
@@ -25,135 +13,16 @@ import utLogo from "../assets/ut-logo.png";
 import menuOutline from "../assets/menu-outline.svg";
 import nlpBanner from "../assets/NLP-banner.jpg";
 import { Link } from "react-router-dom";
+import course1403Data from "../data/course1403.json";
+import staffImages1403 from "../data/staffImages1403";
 
 const CoursePage1403 = (props) => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  const staffList = [
-    {
-      "name": "AmirHossein Safdarian",
-      "image": staff_amirhossein_safdarian,
-      "subject": "",
-      "duty": "CA5, Workshop 3",
-      "linkedin": "https://www.linkedin.com/in/amirhossein-safdarian/",
-      "email": "mailto:safdarian2000@gmail.com",
-      "website": "",
-      "github": "https://github.com/safdarian"
-    },
-    {
-      "name": "Milad Mohammadi",
-      "image": staff_milad_mohammadi,
-      "subject": "",
-      "duty": "CA6, Workshop 3",
-      "linkedin": "https://www.linkedin.com/in/mohammadi-milad-mim/",
-      "email": "mailto:miladmohammadi@ut.ac.ir",
-      "website": "https://miladmohammadi.xyz",
-      "github": "https://github.com/mohammadi-milad-mim"
-    },
-    {
-      "name": "Ali Khorramfar",
-      "image": staff_ali_khorramfar,
-      "subject": "",
-      "duty": "CA2, Quiz 2",
-      "linkedin": "https://www.linkedin.com/in/ali-khoramfar/",
-      "email": "mailto:Alikhorramfar@gmail.com",
-      "website": "",
-      "github": ""
-    },
-    {
-
-      "name": "AmirHossein Bonakdar",
-      "image": staff_amirhossein_bonakdar,
-      "subject": "",
-      "duty": "CA2, Quiz 2",
-      "linkedin": "https://ir.linkedin.com/in/amirhossein-bonakdar-a138a7156",
-      "email": "mailto:amir7bonakdar@gmail.com",
-      "website": "",
-      "github": ""
-    },
-    {
-
-      "name": "Ali Ramezani",
-      "image": staff_ali_ramezani,
-      "subject": "",
-      "duty": "CA1, Quiz 1, CA3, Quiz 3, Workshop 1",
-      "linkedin": "https://www.linkedin.com/in/ali-ramezani-352a0b128/",
-      "email": "mailto:ali.ramezani.96@ut.ac.ir",
-      "website": "",
-      "github": ""
-    },
-    {
-
-      "name": "Mohammad Amin Ghanizadeh",
-      "image": staff_mohammad_amin_ghanizadeh,
-      "subject": "",
-      "duty": "CA1, Quiz 1, CA3, Quiz 3",
-      "linkedin": "https://www.linkedin.com/in/mohammad-amin-ghanizadeh-9b18791a5/",
-      "email": "mailto:ghanizadeh.amin@ut.ac.ir",
-      "website": "",
-      "github": ""
-    },
-    {
-
-      "name": "Mohammad Gorji",
-      "image": staff_mohammad_gorji,
-      "subject": "",
-      "duty": "CA4, Quiz 4, Workshop 2",
-      "linkedin": "https://www.linkedin.com/in/mohammad-gorji-465749275",
-      "email": "mailto:mohamadgorjicode@gmail.com",
-      "website": "",
-      "github": ""
-    },
-    {
-      
-      "name": "Ali Fartout",
-      "image": staff_ali_fartout,
-      "subject": "",
-      "duty": "CA4, Quiz 4",
-      "linkedin": "https://www.linkedin.com/in/ali-fartout-552428170?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "email": "mailto:ali.fartout@ut.ac.ir",
-      "website": "",
-      "github": ""
-    },
-    {
-
-      "name": "Parham Sazdar",
-      "image": staff_parham_sazdar,
-      "subject": "",
-      "duty": "CA3, Quiz 3, Workshop 1",
-      "linkedin": "https://www.linkedin.com/in/parham-sazdar",
-      "email": "mailto:p.sazdar@gmail.com",
-      "website": "",
-      "github": ""
-    },
-    {
-      "name": "Parmis Bathayan",
-      "image": staff_parmis_bathayan,
-      "subject": "",
-      "duty": "Quiz 5, Quiz 6",
-      "linkedin": "https://www.linkedin.com/in/parmis-bathayan-15bb43323/",
-      "email": "mailto:parmisbathaeiyan@gmail.com",
-      "website": "",
-      "github": "https://github.com/parmisbathaeiyan"
-    },
-    {
-
-      "name": "Pouya Gohari",
-      "image": staff_pouya_gohari,
-      "subject": "",
-      "duty": "Quiz 5, Quiz 6",
-      "linkedin": "https://linkedin.com/in/pouya-gohari-a2124a255",
-      "email": "mailto:pouya.hmgohari@gmail.com",
-      "website": "",
-      "github": "https://github.com/PouyaGohari"
-    }
-  ]
-  const CAList = [
-    {
-    "name": "Computer Assignment 1",
-    "subject": "Tokenization, Language Modeling With N-Grams",
-    "url": "https://drive.google.com/file/d/1nQJij6KWAi2ogX4lgc3YMcJgQu1PG1eE/view?usp=sharing"
-    }
-  ]
+  const staffList = course1403Data.staff.map((staff) => ({
+    ...staff,
+    image: staffImages1403[staff.imageKey],
+  }));
+  const CAList = course1403Data.assignments;
   return (
     <>
       <header className="py-2 px-4 shadow-lg bg-primary-600 flex text-white justify-between items-center">
@@ -294,6 +163,7 @@ const CoursePage1403 = (props) => {
             <div className="grid [&>article>img]:border-2 [&>article>img]:border-primary-500 grid-cols-2 text-center -mx-10 sm:mx-0 justify-center lg:items-start lg:justify-center lg:grid md:grid-cols-3 gap-1">
               {/* Staff */}
               {staffList.map((staff) => (<Staff 
+                  key={staff.name}
                   name={staff.name}
                   image={staff.image}
                   subject={staff.subject}
@@ -377,7 +247,7 @@ const CoursePage1403 = (props) => {
         <div className="container">
           <h1 className="font-bold text-xl">Assignments</h1>
           {CAList.map((ca) => (
-            <p class="mt-4" style={{ color: "#518ccf" }}>
+            <p class="mt-4" style={{ color: "#518ccf" }} key={ca.name}>
               <Link to={ca.url}>
                 {ca.name} - {ca.subject}
               </Link>
