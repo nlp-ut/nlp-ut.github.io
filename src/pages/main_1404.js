@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import "./main_1404.css";
 
 import Staff from "../Components/Staff";
@@ -14,27 +14,24 @@ import nlpBanner from "../assets/NLP-banner.jpg";
 import { Link } from "react-router-dom";
 import course1404Data from "../data/course1404.json";
 import staffImages1404 from "../data/staffImages1404";
-
-const chiefTANames = ["Milad Mohammadi", "AmirHossein Safdarian"];
+import headTA1404 from "../data/head_ta/head_ta_1404.json";
 
 const CoursePage1404 = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
-  const staffList = useMemo(
-    () =>
-      course1404Data.staff.map((staff) => ({
-        ...staff,
-        image: staffImages1404[staff.imageKey] || utLogo,
-      })),
-    []
-  );
+  const chiefTAList = headTA1404.map((ta) => ({
+    ...ta,
+    image: staffImages1404[ta.imageKey] || utLogo,
+  }));
 
-  const chiefTAs = staffList.filter((staff) =>
-    chiefTANames.includes(staff.name)
-  );
-  const otherStaff = staffList.filter(
-    (staff) => !chiefTANames.includes(staff.name)
-  );
+  const chiefTAKeys = new Set(chiefTAList.map((ta) => ta.imageKey));
+
+  const staffList = course1404Data.staff
+    .filter((staff) => !chiefTAKeys.has(staff.imageKey))
+    .map((staff) => ({
+      ...staff,
+      image: staffImages1404[staff.imageKey] || utLogo,
+    }));
 
   const CAList = course1404Data.assignments;
 
@@ -152,36 +149,18 @@ const CoursePage1404 = () => {
                 Chief Teaching Assistants
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
-                {chiefTAs.map((ta) => (
-                  <div className="flex flex-col items-center" key={ta.name}>
-                    <img
-                      src={ta.image}
-                      alt={ta.name}
-                      className="border-4 border-primary-400 w-32 sm:w-40 object-cover rounded-full"
-                    />
-                    <p className="mt-2 sm:text-lg text-nowrap">{ta.name}</p>
-                    <div className="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-                      {ta.linkedin && (
-                        <a href={ta.linkedin}>
-                          <img
-                            src={linkedinLogo}
-                            alt="LinkedIn"
-                            className="sm:!h-7 !h-5"
-                          />
-                        </a>
-                      )}
-                      {ta.email && (
-                        <a href={ta.email}>
-                          <img src={mailOutlineLogo} alt="Mail" />
-                        </a>
-                      )}
-                      {ta.homepage && (
-                        <a href={ta.homepage}>
-                          <img src={linkSVG} alt="Personal Page" />
-                        </a>
-                      )}
-                    </div>
-                  </div>
+                {chiefTAList.map((ta) => (
+                  <Staff
+                    key={ta.name}
+                    name={ta.name}
+                    image={ta.image}
+                    subject={ta.subject}
+                    duty={ta.duty}
+                    linkedin={ta.linkedin}
+                    email={ta.email}
+                    homepage={ta.homepage}
+                    github={ta.github}
+                  />
                 ))}
               </div>
             </article>
@@ -190,7 +169,7 @@ const CoursePage1404 = () => {
           <div className="right flex flex-col items-center gap-3">
             <h2 className="font-bold text-xl">Teaching Staff</h2>
             <div className="grid [&>article>img]:border-2 [&>article>img]:border-primary-500 grid-cols-2 text-center -mx-10 sm:mx-0 justify-center lg:items-start lg:justify-center lg:grid md:grid-cols-3 gap-1">
-              {otherStaff.map((staff) => (
+              {staffList.map((staff) => (
                 <Staff
                   key={staff.name}
                   name={staff.name}
