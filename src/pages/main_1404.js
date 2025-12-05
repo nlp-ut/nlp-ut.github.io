@@ -148,7 +148,7 @@ const CoursePage1404 = () => {
               <h2 className="font-bold sm:text-xl text-nowrap">
                 Chief Teaching Assistants
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6 [&>article>img]:border-2 [&>article>img]:border-primary-500">
                 {chiefTAList.map((ta) => (
                   <Staff
                     key={ta.name}
