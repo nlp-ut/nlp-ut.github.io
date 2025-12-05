@@ -1,11 +1,10 @@
-import { useState } from "react";
-import "./main_1403.css";
+import { useMemo, useState } from "react";
+import "./main_1404.css";
 
 import Staff from "../Components/Staff";
 
 import faili from "../assets/faili.jpg";
 import peymani from "../assets/peymani.jpg";
-
 import linkedinLogo from "../assets/logo-linkedin.svg";
 import linkSVG from "../assets/link.svg";
 import mailOutlineLogo from "../assets/mail-open-outline.svg";
@@ -13,16 +12,32 @@ import utLogo from "../assets/ut-logo.png";
 import menuOutline from "../assets/menu-outline.svg";
 import nlpBanner from "../assets/NLP-banner.jpg";
 import { Link } from "react-router-dom";
-import course1403Data from "../data/course1403.json";
-import staffImages1403 from "../data/staffImages1403";
+import course1404Data from "../data/course1404.json";
+import staffImages1404 from "../data/staffImages1404";
 
-const CoursePage1403 = (props) => {
+const chiefTANames = ["Milad Mohammadi", "AmirHossein Safdarian"];
+
+const CoursePage1404 = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  const staffList = course1403Data.staff.map((staff) => ({
-    ...staff,
-    image: staffImages1403[staff.imageKey],
-  }));
-  const CAList = course1403Data.assignments;
+
+  const staffList = useMemo(
+    () =>
+      course1404Data.staff.map((staff) => ({
+        ...staff,
+        image: staffImages1404[staff.imageKey] || utLogo,
+      })),
+    []
+  );
+
+  const chiefTAs = staffList.filter((staff) =>
+    chiefTANames.includes(staff.name)
+  );
+  const otherStaff = staffList.filter(
+    (staff) => !chiefTANames.includes(staff.name)
+  );
+
+  const CAList = course1404Data.assignments;
+
   return (
     <>
       <header className="py-2 px-4 shadow-lg bg-primary-600 flex text-white justify-between items-center">
@@ -53,25 +68,24 @@ const CoursePage1403 = (props) => {
         {mobileNavOpen && (
           <nav className="min-h-screen bg-white w-10/12 max-w-[32rem] fixed right-0 top-0 z-[100] shadow-2xl border-l border-primary-700/10">
             <h2 className="bg-primary-50 rounded-xl m-4 shadow-sm text-primary-500 text-center py-4 px-2 font-semibold">
-              Natural Language Processing Course Web Page <br /> Fall 2024
+              Natural Language Processing Course Web Page <br /> 1404
             </h2>
             <ul className="divide-y-2 px-8 justify-between flex flex-col text-primary-600 font-semibold w-full text-center text-lg">
-              <li className="py-4 cursor-pointer">
+              <li className="py-4">
                 <a href="#staff">Teaching Staff</a>
               </li>
-              <li className="py-4 cursor-pointer">
+              <li className="py-4">
                 <a href="#logistics">Logistic</a>
               </li>
-              <li className="py-4 cursor-pointer">
+              <li className="py-4">
                 <a href="#content">Content</a>
               </li>
-              <li className="py-4 cursor-pointer">
+              <li className="py-4">
                 <a href="#assignments">Assignments</a>
               </li>
-              <li className="py-4 cursor-pointer">
+              <li className="py-4">
                 <a href="#past">Past Course Archives</a>
               </li>
-              
             </ul>
           </nav>
         )}
@@ -82,7 +96,7 @@ const CoursePage1403 = (props) => {
           onClick={() => setMobileNavOpen(false)}
         ></div>
       )}
-      
+
       <section
         id="header"
         className="relative bg-cover bg-center h-64"
@@ -90,7 +104,7 @@ const CoursePage1403 = (props) => {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative flex items-center justify-center h-full">
-          <h1 className="text-white text-4xl font-bold">NLP - Fall 2024</h1>
+          <h1 className="text-white text-4xl font-bold">NLP - 1404</h1>
         </div>
       </section>
 
@@ -106,8 +120,8 @@ const CoursePage1403 = (props) => {
         <div className="container flex flex-col lg:items-start lg:justify-center lg:flex-row gap-10 items-center">
           <div className="left flex-col justify-center items-center gap-20">
             {/* Instructor */}
-            
-            <article className="flex flex-col items-center" style={{paddingRight:20}}>
+
+            <article className="flex flex-col items-center" style={{ paddingRight: 20 }}>
               <h2 className="font-bold sm:text-xl">Instructor</h2>
               <img
                 src={faili}
@@ -132,28 +146,43 @@ const CoursePage1403 = (props) => {
               </div>
             </article>
 
-            {/* Chief Teaching Assistant */}
+            {/* Chief Teaching Assistants */}
             <article className="flex flex-col items-center mt-10">
               <h2 className="font-bold sm:text-xl text-nowrap">
-                Chief Teaching Assistant
+                Chief Teaching Assistants
               </h2>
-              <img
-                src={peymani}
-                alt="Samaneh Peymani Rad"
-                className="border-4 border-primary-400 w-36 sm:w-52 mt-5 object-cover rounded-full"
-              />
-              <p className="mt-1 sm:text-lg text-nowrap">Samaneh Peymani Rad</p>
-              <div className="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-                <a href="https://www.linkedin.com/in/samaneh-peymani-rad-40736a144">
-                  <img
-                    src={linkedinLogo}
-                    alt="LinkedIn"
-                    className="sm:!h-7 !h-5"
-                  />
-                </a>
-                <a href="mailto:samanehrad94@gmail.com">
-                  <img src={mailOutlineLogo} alt="Mail" />
-                </a>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+                {chiefTAs.map((ta) => (
+                  <div className="flex flex-col items-center" key={ta.name}>
+                    <img
+                      src={ta.image}
+                      alt={ta.name}
+                      className="border-4 border-primary-400 w-32 sm:w-40 object-cover rounded-full"
+                    />
+                    <p className="mt-2 sm:text-lg text-nowrap">{ta.name}</p>
+                    <div className="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
+                      {ta.linkedin && (
+                        <a href={ta.linkedin}>
+                          <img
+                            src={linkedinLogo}
+                            alt="LinkedIn"
+                            className="sm:!h-7 !h-5"
+                          />
+                        </a>
+                      )}
+                      {ta.email && (
+                        <a href={ta.email}>
+                          <img src={mailOutlineLogo} alt="Mail" />
+                        </a>
+                      )}
+                      {ta.homepage && (
+                        <a href={ta.homepage}>
+                          <img src={linkSVG} alt="Personal Page" />
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                ))}
               </div>
             </article>
           </div>
@@ -161,8 +190,8 @@ const CoursePage1403 = (props) => {
           <div className="right flex flex-col items-center gap-3">
             <h2 className="font-bold text-xl">Teaching Staff</h2>
             <div className="grid [&>article>img]:border-2 [&>article>img]:border-primary-500 grid-cols-2 text-center -mx-10 sm:mx-0 justify-center lg:items-start lg:justify-center lg:grid md:grid-cols-3 gap-1">
-              {/* Staff */}
-              {staffList.map((staff) => (<Staff 
+              {otherStaff.map((staff) => (
+                <Staff
                   key={staff.name}
                   name={staff.name}
                   image={staff.image}
@@ -171,7 +200,9 @@ const CoursePage1403 = (props) => {
                   linkedin={staff.linkedin}
                   email={staff.email}
                   homepage={staff.homepage}
-                  github={staff.github}/>))}
+                  github={staff.github}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -181,11 +212,12 @@ const CoursePage1403 = (props) => {
         <div className="container">
           <h1 className="font-bold text-xl">Logistics</h1>
           <p className="mt-4">
-          🏫
-          Class Location and Timing: Room 219, Tehran University's College of Engineering. Saturdays and Mondays, 9:00 AM to 10:30 AM Iran Standard Time. <br />
-          
-          📅
-          You can download the course schedule file from the following link:{" "}
+            🏫 Class Location and Timing: Room 219, Tehran University's College
+            of Engineering. Saturdays and Mondays, 9:00 AM to 10:30 AM Iran
+            Standard Time. <br />
+            <br />
+            📅 You can download the course schedule file from the following
+            link:{" "}
             <a
               style={{ color: "#518ccf" }}
               href="https://drive.google.com/drive/folders/1xutGEyU6L4bJLKXpjudBPyOFPX1BbonM?usp=sharing"
@@ -193,37 +225,20 @@ const CoursePage1403 = (props) => {
               Download Here
             </a>
             <br />
-          
-          🎥
-          All teaching videos are available on the following link: {" "}
-          <a 
-            style={{color: "#518ccf"}} 
-            href="https://www.aparat.com/UT_NLP/"
-          >
-              Aparat Channel
-          </a>
-          <br />
-          
-          📜
-          The course policies document is available on the following link:{" "}
-          <a 
-            style={{ color: "#518ccf" }} 
-            href="https://drive.google.com/drive/folders/1ZG8H_a0LGIpBuJ1xd4QyiHSjAy7SEeLr?usp=sharing"
-          >
-            Download Here
-          </a>{" "}
-          <br/>
-          
-          💻
-          Course workshop recordings are available on the following link:{" "}
-          <a 
-            style={{ color: "#518ccf" }} 
-            href="https://www.youtube.com/@NLP-UT"
-          >
-            YouTube Channel
-          </a>{" "}
-          <br/>
-          
+            <br />
+            🎥 All teaching videos are available on the following link:{" "}
+            <a
+              style={{ color: "#518ccf" }}
+              href="https://www.youtube.com/@NLP-UT"
+            >
+              YouTube Channel
+            </a>{" "}
+            <br />
+            <br />
+            💻 Course workshop recordings are available on the following link:{" "}
+            <a style={{ color: "#518ccf" }} href="https://www.youtube.com/@NLP-UT">
+              YouTube Channel
+            </a>{" "}
           </p>
         </div>
       </section>
@@ -231,23 +246,49 @@ const CoursePage1403 = (props) => {
       <section id="content" className="px-6 py-8 bg-primary-50">
         <div className="container">
           <h1 className="font-bold text-xl">Content</h1>
-          <p class="mt-4">
-          This course begins with foundational concepts in NLP and gradually advances to more sophisticated models, comprehensively covering a range of NLP tasks, including machine translation, sentiment analysis, text generation, entity recognition, and text classification. Additionally, it delves into the topic of dialogue systems and chatbots, exploring their design principles and practical implementations. Moreover, the course offers a rigorous exploration of advanced neural network architectures tailored specifically for NLP, empowering participants with a profound understanding of cutting-edge techniques and their applications in real-world scenarios.
-        
-        Throughout the course, students will develop proficiency in various NLP tasks through their participation in continuous assessment activities (CAs). Beginning with fundamental concepts such as data tokenization and basic natural language processing model training, they will progressively advance to explore more complex neural network architectures like RNNs, LSTMs, and GRUs, alongside pertinent methodologies. As they progress, their CAs will emphasize the practical application of their knowledge to contemporary models such as BERT and LLMs. Moreover, students will enhance their skills through hands-on exercises and projects, specifically geared towards machine translation and dialogue systems. This approach ensures that students not only grasp theoretical concepts but also gain practical experience in implementing NLP techniques in real-world scenarios.
-        
-        </p>
-        <p>
-          Throughout the course, students will actively participate in workshops. These workshops are designed to bolster their skills and proficiency in NLP through practical engagement . Following the completion of each workshop, video recordings will be published for public access.
-        </p>
+          <p className="mt-4">
+            This course begins with foundational concepts in NLP and gradually
+            advances to more sophisticated models, comprehensively covering a
+            range of NLP tasks, including machine translation, sentiment
+            analysis, text generation, entity recognition, and text
+            classification. Additionally, it delves into the topic of dialogue
+            systems and chatbots, exploring their design principles and
+            practical implementations. Moreover, the course offers a rigorous
+            exploration of advanced neural network architectures tailored
+            specifically for NLP, empowering participants with a profound
+            understanding of cutting-edge techniques and their applications in
+            real-world scenarios.
+          </p>
+          <p className="mt-4">
+            Throughout the course, students will develop proficiency in various
+            NLP tasks through their participation in continuous assessment
+            activities (CAs). Beginning with fundamental concepts such as data
+            tokenization and basic natural language processing model training,
+            they will progressively advance to explore more complex neural
+            network architectures like RNNs, LSTMs, and GRUs, alongside
+            pertinent methodologies. As they progress, their CAs will emphasize
+            the practical application of their knowledge to contemporary models
+            such as BERT and LLMs. Moreover, students will enhance their skills
+            through hands-on exercises and projects, specifically geared towards
+            machine translation and dialogue systems. This approach ensures that
+            students not only grasp theoretical concepts but also gain practical
+            experience in implementing NLP techniques in real-world scenarios.
+          </p>
+          <p className="mt-4">
+            Throughout the course, students will actively participate in
+            workshops. These workshops are designed to bolster their skills and
+            proficiency in NLP through practical engagement. Following the
+            completion of each workshop, video recordings will be published for
+            public access.
+          </p>
         </div>
       </section>
-      
+
       <section id="assignments" className="px-6 py-8">
         <div className="container">
           <h1 className="font-bold text-xl">Assignments</h1>
           {CAList.map((ca) => (
-            <p class="mt-4" style={{ color: "#518ccf" }} key={ca.name}>
+            <p className="mt-4" style={{ color: "#518ccf" }} key={ca.name}>
               <Link to={ca.url}>
                 {ca.name} - {ca.subject}
               </Link>
@@ -259,36 +300,23 @@ const CoursePage1403 = (props) => {
       <section id="past" className="px-6 py-8  bg-primary-50">
         <div className="container">
           <h1 className="font-bold text-xl">Past Course Archives</h1>
-          <p class="mt-4" style={{color: "#518ccf"}}>
-            <Link to="/spring-2024" >Spring 2024 Course</Link>
+          <p className="mt-4" style={{ color: "#518ccf" }}>
+            <Link to="/fall-2024">Fall 2024 Course</Link>
+          </p>
+          <p className="mt-2" style={{ color: "#518ccf" }}>
+            <Link to="/spring-2024">Spring 2024 Course</Link>
           </p>
         </div>
-        <h2 className="font-semibold text-lg mt-6">Past Quizzes</h2>
-    <ul className="mt-4 space-y-2">
-      <li>
-        <a href="https://drive.google.com/file/d/18RZFGei7uw_UT5ePI8vWitQcMdfTEDv2/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 1 - Spring 2023</a>
-      </li>
-      <li>
-        <a href="https://drive.google.com/file/d/11phFloUtbgIAxuv8An_Bmh66rjh4X_V8/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 2 - Spring 2023</a>
-      </li>
-      <li>
-        <a href="https://drive.google.com/file/d/1mrACQWCU10KVxAC5m8frcYjnlSDnlE7l/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 3 - Spring 2023</a>
-      </li>
-      <li>
-        <a href="https://drive.google.com/file/d/1tuWAvq_G_9WvKLZmOT9D2QppSvzi8Gek/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 4 - Spring 2023</a>
-      </li>
-      <li>
-        <a href="https://drive.google.com/file/d/1k2TRN4PGdaq2msMK_jWNIZFhR3bQRVB0/view?usp=drive_link" style={{ color: "#518ccf" }}>Quiz 5 - Spring 2023</a>
-      </li>
-    </ul>
       </section>
 
       <footer className="mt-5 text-center py-3 container">
         Coded by{" "}
-        <a href="https://www.linkedin.com/in/amirhossein-safdarian/">AmirHossein Safdarian</a>
+        <a href="https://www.linkedin.com/in/amirhossein-safdarian/">
+          AmirHossein Safdarian
+        </a>
       </footer>
     </>
   );
 };
 
-export default CoursePage1403;
+export default CoursePage1404;

@@ -1,0 +1,161 @@
+{
+  "staff": [
+    {
+      "imageKey": "amirhossein_safdarian",
+      "name": "AmirHossein Safdarian",
+      "subject": "",
+      "duty": "CA5, Workshop 3",
+      "linkedin": "https://www.linkedin.com/in/amirhossein-safdarian/",
+      "email": "mailto:safdarian2000@gmail.com",
+      "homepage": "",
+      "github": "https://github.com/safdarian"
+    },
+    {
+      "imageKey": "milad_mohammadi",
+      "name": "Milad Mohammadi",
+      "subject": "",
+      "duty": "Chief TA",
+      "linkedin": "https://www.linkedin.com/in/mohammadi-milad-mim/",
+      "email": "mailto:miladmohammadi@ut.ac.ir",
+      "homepage": "https://miladmohammadi.xyz",
+      "github": "https://github.com/mohammadi-milad-mim"
+    },
+    {
+      "imageKey": "ali_fartout",
+      "name": "Ali Fartout",
+      "subject": "",
+      "duty": "CA4, Quiz 4",
+      "linkedin": "https://www.linkedin.com/in/ali-fartout-552428170?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "email": "mailto:ali.fartout@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "erfan_shahabi",
+      "name": "Erfan Shahabi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "",
+      "email": "mailto:erfanshahabi@outlook.com",
+      "homepage": "https://erfanshahabi.github.io",
+      "github": ""
+    },
+    {
+      "imageKey": "ali_fartout",
+      "name": "Ali Fartout",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/ali-fartoot-552428170",
+      "email": "mailto:ali.fartout@ut.ac.ir",
+      "homepage": "https://ali-fartoot.github.io/",
+      "github": ""
+    },
+    {
+      "imageKey": "farhad_nasri",
+      "name": "Farhad Nasri",
+      "subject": "",
+      "duty": "",
+      "linkedin": "",
+      "email": "mailto:farhadnasri999@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "alireza_zamani",
+      "name": "Alireza Zamani",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://linkedin.com/in/zalireza",
+      "email": "mailto:ar.zamani@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "alireza_akhoundi",
+      "name": "Alireza Akhoundi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/alireza-akhoundi-0422661a4",
+      "email": "mailto:a.akhoundi79@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "mahdi_sabour",
+      "name": "Mahdi Sabour",
+      "subject": "",
+      "duty": "",
+      "linkedin": "",
+      "email": "mailto:msabour.official@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "mohammad_mehdi_salmany",
+      "name": "Mohammad Mehdi Salmani Zarchi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "",
+      "email": "mailto:momasal78@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "farshad_hessami",
+      "name": "Farshad Hessami",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://linkedin.com/in/farshad-hessami-432b14206",
+      "email": "mailto:farcshad@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "shahrzad_azari_azad",
+      "name": "Shahrzad Azari Azad",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/shahrzad-azariazad",
+      "email": "mailto:shahrzad123azari@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "yoosef_ghaderi",
+      "name": "Yousef Ghaderi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/yoosef-ghaderi-46b41b390?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "email": "mailto:yoosefghaderi2001@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "zahra_feizolahzadeh",
+      "name": "Zahra Feizolahzadeh",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://linkedin.com/in/zahra-feizollahzadeh-203a081ba",
+      "email": "mailto:zahra.feizolahzadeh@gmail.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "hossein_lashgari",
+      "name": "Hossein Lashgari",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/hossein-lashgari",
+      "email": "mailto:h.lashgari@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    }
+  ],
+  "assignments": [
+    {
+      "name": "Computer Assignment 1",
+      "subject": "Tokenization, Language Modeling With N-Grams",
+      "url": "https://drive.google.com/file/d/1nQJij6KWAi2ogX4lgc3YMcJgQu1PG1eE/view?usp=sharing"
+    }
+  ]
+}

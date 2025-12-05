@@ -39,7 +39,7 @@ const CoursePage1402 = (props) => {
         </div>
         <img
           src={menuOutline}
-          className="fill-white w-16"
+          className="fill-white w-16  cursor-pointer"
           onClick={() => setMobileNavOpen(true)}
           alt="Menu"
         />
