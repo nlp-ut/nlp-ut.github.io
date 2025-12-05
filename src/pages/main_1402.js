@@ -131,10 +131,10 @@ const CoursePage1402 = (props) => {
               </div>
             </article>
 
-            {/* Chief Teaching Assistant */}
+            {/* Head TA */}
             <article className="flex flex-col items-center mt-10">
               <h2 className="font-bold sm:text-xl text-nowrap">
-                Chief Teaching Assistant
+                Head TA
               </h2>
               <img
                 src={peymani}

@@ -4,7 +4,7 @@
       "imageKey": "amirhossein_safdarian",
       "name": "AmirHossein Safdarian",
       "subject": "",
-      "duty": "CA5, Workshop 3",
+      "duty": "Head TA",
       "linkedin": "https://www.linkedin.com/in/amirhossein-safdarian/",
       "email": "mailto:safdarian2000@gmail.com",
       "homepage": "",
@@ -14,7 +14,7 @@
       "imageKey": "milad_mohammadi",
       "name": "Milad Mohammadi",
       "subject": "",
-      "duty": "Chief TA",
+      "duty": "Head TA",
       "linkedin": "https://www.linkedin.com/in/mohammadi-milad-mim/",
       "email": "mailto:miladmohammadi@ut.ac.ir",
       "homepage": "https://miladmohammadi.xyz",
@@ -82,7 +82,7 @@
     },
     {
       "imageKey": "mohammad_mehdi_salmany",
-      "name": "Mohammad Mehdi Salmani Zarchi",
+      "name": "Mohammad Mahdi Salmani Zarchi",
       "subject": "",
       "duty": "",
       "linkedin": "",
@@ -142,10 +142,5 @@
     }
   ],
   "assignments": [
-    {
-      "name": "Computer Assignment 1",
-      "subject": "Tokenization, Language Modeling With N-Grams",
-      "url": "https://drive.google.com/file/d/1nQJij6KWAi2ogX4lgc3YMcJgQu1PG1eE/view?usp=sharing"
-    }
   ]
 }
