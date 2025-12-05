@@ -283,6 +283,39 @@ const CoursePage1403 = (props) => {
     </ul>
       </section>
 
+      <Link to="/">
+        <button
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            left: "20px",
+            padding: "10px 20px",
+            backgroundColor: "#007bff",
+            color: "white",
+            border: "none",
+            borderRadius: "5px",
+            cursor: "pointer",
+            zIndex: 1000,
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="white"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="feather feather-arrow-left"
+          >
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+      </Link>
+
       <footer className="mt-5 text-center py-3 container">
         Coded by{" "}
         <a href="https://www.linkedin.com/in/amirhossein-safdarian/">AmirHossein Safdarian</a>

@@ -68,7 +68,7 @@ const CoursePage1404 = () => {
         {mobileNavOpen && (
           <nav className="min-h-screen bg-white w-10/12 max-w-[32rem] fixed right-0 top-0 z-[100] shadow-2xl border-l border-primary-700/10">
             <h2 className="bg-primary-50 rounded-xl m-4 shadow-sm text-primary-500 text-center py-4 px-2 font-semibold">
-              Natural Language Processing Course Web Page <br /> 1404
+              Natural Language Processing Course Web Page <br /> Fall 2025
             </h2>
             <ul className="divide-y-2 px-8 justify-between flex flex-col text-primary-600 font-semibold w-full text-center text-lg">
               <li className="py-4">
@@ -104,7 +104,7 @@ const CoursePage1404 = () => {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative flex items-center justify-center h-full">
-          <h1 className="text-white text-4xl font-bold">NLP - 1404</h1>
+          <h1 className="text-white text-4xl font-bold">NLP - Fall 2025</h1>
         </div>
       </section>
 
