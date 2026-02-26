@@ -6,6 +6,7 @@ import alireza_zamani from "../assets/1404/alireza_zamani.jpg";
 import hossein_lashgari from "../assets/1404/hossein_lashgari.jpg";
 import yoosef_ghaderi from "../assets/1404/yoosef_ghaderi.jpg";
 import zahra_feizolahzadeh from "../assets/1404/zahra_feizolahzadeh.jpg";
+import salmani from "../assets/1404/salmani.jpg";
 import mahdi_sabour from "../assets/1404/mahdi_sabour.jpg";
 import utLogo from "../assets/ut-logo.png";
 
@@ -19,10 +20,10 @@ const staffImages1404 = {
   yoosef_ghaderi,
   zahra_feizolahzadeh,
   mahdi_sabour,
+  salmani,
   // Fallbacks for profiles without an uploaded photo
   farhad_nasri: utLogo,
   alireza_akhoundi: utLogo,
-  mohammad_mehdi_salmany: utLogo,
   farshad_hessami: utLogo,
   shahrzad_azari_azad: utLogo,
 };
