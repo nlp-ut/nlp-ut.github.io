@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd85b868.css",
-    "main.js": "/static/js/main.30fbfc3d.js",
+    "main.js": "/static/js/main.443480c4.js",
     "static/media/amirhossein_safdarian.jpg": "/static/media/amirhossein_safdarian.dadb306e92b5525cc99f.jpg",
     "static/media/mohammad_gorji.jpg": "/static/media/mohammad_gorji.d098090721cd0739f04f.jpg",
     "static/media/ali_khorramfar.jpg": "/static/media/ali_khorramfar.e61f9ee8253c31cd9ce2.jpg",
@@ -19,6 +19,7 @@
     "static/media/parmis_bathayan.jpg": "/static/media/parmis_bathayan.c111efc3b0104399ba8a.jpg",
     "static/media/alireza_zamani.jpg": "/static/media/alireza_zamani.67ae4a46c8f886235fa9.jpg",
     "static/media/ashouri.jpg": "/static/media/ashouri.cfed1f106813a2f6e234.jpg",
+    "static/media/salmani.jpg": "/static/media/salmani.04b7044f2d0f4eaead7e.jpg",
     "static/media/yoosef_ghaderi.jpg": "/static/media/yoosef_ghaderi.1c8ec40c3510ea57e28a.jpg",
     "static/media/masoudi.jpg": "/static/media/masoudi.d169427de93eb22f61fc.jpg",
     "static/media/erfan_shahabi.jpg": "/static/media/erfan_shahabi.94fa85f092c0de1d5ca6.jpg",
@@ -38,10 +39,10 @@
     "static/media/link.svg": "/static/media/link.bf0359c15a5b3198d45bd8f95f190bad.svg",
     "static/media/menu-outline.svg": "/static/media/menu-outline.985b09aa9867a99e692497968713b570.svg",
     "main.cd85b868.css.map": "/static/css/main.cd85b868.css.map",
-    "main.30fbfc3d.js.map": "/static/js/main.30fbfc3d.js.map"
+    "main.443480c4.js.map": "/static/js/main.443480c4.js.map"
   },
   "entrypoints": [
     "static/css/main.cd85b868.css",
-    "static/js/main.30fbfc3d.js"
+    "static/js/main.443480c4.js"
   ]
 }
