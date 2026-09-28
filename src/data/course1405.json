@@ -1,0 +1,126 @@
+{
+  "staff": [
+    {
+      "imageKey": "amirhossein_bonakdar",
+      "name": "Amirhossein Bonakdar",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/amirhossein-bonakdar-a138a7156",
+      "email": "mailto:amirh.bonakdar@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "erfan_shahabi",
+      "name": "Erfan Shahabi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/erfanshahabi/",
+      "email": "mailto:erfanshahabi@outlook.com",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "yoosef_ghaderi",
+      "name": "Yousef Ghaderi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/yoosef-ghaderi-46b41b390",
+      "email": "mailto:yoosefghaderi2001@ut.ac.ir",
+      "homepage": "",
+      "github": ""
+    },
+    {
+      "imageKey": "mohammad_vatankhah",
+      "name": "Mohammad Vatankhah",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/mohammad-vatankhah-ardakani-028b861b3/",
+      "email": "mailto:mo.vatankhah@ut.ac.ir",
+      "homepage": "",
+      "github": "https://github.com/Mohammad-Vatankhah"
+    },
+    {
+      "imageKey": "mohammadhossein_altafi",
+      "name": "Mohammad Hossein Altafi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/mohammad-hossein-altafi",
+      "email": "mailto:mh.altafi@ut.ac.ir",
+      "homepage": "",
+      "github": "https://github.com/MHAltafi"
+    },
+    {
+      "imageKey": "ali_rajabzadeh",
+      "name": "Ali Rajabzadeh",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/ali-rajabzadeh-chenari",
+      "email": "mailto:alirajabzadeh9@gmail.com",
+      "homepage": "",
+      "github": "https://github.com/AliRajabzadehCh"
+    },
+    {
+      "imageKey": "hamidreza_talei",
+      "name": "Hamidreza Talei",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/hamidreza-talei",
+      "email": "mailto:hamidrezatalei@ut.ac.ir",
+      "homepage": "",
+      "github": "https://github.com/Hamidreza-Talei"
+    },
+    {
+      "imageKey": "reyhaneh_parsa",
+      "name": "Reyhaneh Parsa",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/reyhaneh-parsa/",
+      "email": "mailto:parsareyhane@gmail.com",
+      "homepage": "",
+      "github": "https://github.com/ReyParsa"
+    },
+    {
+      "imageKey": "parsa_hosseinian",
+      "name": "Parsa Hosseinian",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/parsa-hosseinian-726bbb220",
+      "email": "mailto:mphosainian@gmail.com",
+      "homepage": "",
+      "github": "https://github.com/Harispy"
+    },
+    {
+      "imageKey": "alireza_akhoundi",
+      "name": "Alireza Akhoundi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/alireza-akhoundi-0422661a4/",
+      "email": "",
+      "homepage": "",
+      "github": "https://github.com/AlirezaAK2000"
+    },
+    {
+      "imageKey": "shaghayegh_shahbazi",
+      "name": "Shaghayegh Shahbazi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/shaghayeghshahbazi/",
+      "email": "mailto:shsh6184@gmail.com",
+      "homepage": "",
+      "github": "https://github.com/shshahbazi"
+    },
+    {
+      "imageKey": "alireza_farshi",
+      "name": "Alireza Farshi",
+      "subject": "",
+      "duty": "",
+      "linkedin": "https://www.linkedin.com/in/alireza-farshi-6227a8253/",
+      "email": "mailto:azerila.farshi@gmail.com",
+      "homepage": "",
+      "github": ""
+    }
+  ],
+  "assignments": [
+  ]
+}
