@@ -9,8 +9,8 @@ import erfan_shahabi from "../assets/1405/erfan_shahabi.jpg";
 import alireza_akhoundi from "../assets/1405/alireza_akhoundi.jpg";
 import amirhossein_bonakdar from "../assets/1405/amirhossein_bonakdar.jpg";
 import shaghayegh_shahbazi from "../assets/1405/shaghayegh_shahbazi.jpg";
+import alireza_farshi from "../assets/1405/alireza_farshi.jpg";
 import yoosef_ghaderi from "../assets/1404/yoosef_ghaderi.jpg";
-import utLogo from "../assets/ut-logo.png";
 
 const staffImages1405 = {
   mahdi_sabour,
@@ -25,7 +25,7 @@ const staffImages1405 = {
   amirhossein_bonakdar,
   shaghayegh_shahbazi,
   yoosef_ghaderi,
-  alireza_farshi: utLogo,
+  alireza_farshi,
 };
 
 export default staffImages1405;
