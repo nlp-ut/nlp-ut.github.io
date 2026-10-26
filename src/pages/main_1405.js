@@ -200,7 +200,7 @@ const CoursePage1405 = () => {
             link:{" "}
             <a
               style={{ color: "#518ccf" }}
-              href="https://drive.google.com/drive/folders/1xutGEyU6L4bJLKXpjudBPyOFPX1BbonM?usp=sharing"
+              href="https://docs.google.com/spreadsheets/d/1Q28tApFmHkunQu-OlZw0AaR2dmhfo1Re/edit?usp=sharing&ouid=108390163682801392965&rtpof=true&sd=true"
             >
               Download Here
             </a>
@@ -209,9 +209,9 @@ const CoursePage1405 = () => {
             🎥 All teaching videos are available on the following link:{" "}
             <a
               style={{ color: "#518ccf" }}
-              href="https://www.youtube.com/@NLP-UT"
+              href="https://www.aparat.com/UT_NLP/"
             >
-              YouTube Channel
+              Aparat Channel
             </a>{" "}
             <br />
             <br />
